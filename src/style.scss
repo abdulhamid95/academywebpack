@@ -1,0 +1,36 @@
+$color: #616571;
+
+body{
+    text-align: center;
+    direction: rtl;
+}
+
+.card{
+    border: 1px solid $color;
+    border-radius: 5px;
+    padding: 25px;
+    width: 35%;
+    margin: auto;
+    img{
+        width: 100%;
+        margin: auto;
+    }
+
+    p{
+        margin-bottom: 20px;
+        text-align: right;
+        direction: rtl;
+    }
+
+    .button {
+        text-decoration: none;
+        background-color: $color;
+        color: white;
+        padding: 10px 40px;
+        border-radius: 5px;
+        margin-top: 20px;
+        &:hover{
+            background-color: #ADADB5;
+        }
+    }
+}
